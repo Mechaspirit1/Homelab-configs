@@ -3,8 +3,7 @@ This repository is dedicated to the documentation and journaling of my homelab.
 This documentation, much like the lab itself, is a work in progress and subject to
 changes and updates.
 
-# System specifications
-## (Main node "omnissiah")
+## System specifications (main node "omnissiah")
 - Base machine: Dell Optiplex 7010 MT
 - Motherboard: Dell 773VG LGA1155 Intel Q77
 - CPU: Intel Core I7 3770 (4 cores, 8 threads) @ 3.90GHz
