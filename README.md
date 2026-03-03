@@ -37,7 +37,7 @@ Main virtualization machine
 - General storage: 2TB Western Digital WD22PURZ
 
 ## Virtual Machines
-- Windows 10 Home Edition (general windows desktop usage)
+- Windows 10 Pro Edition (general windows desktop usage)
 - Linux Mint 22.3 "Zena" kernel 6.8 (testing)
 - FreeBSD 15.0-RELEASE (testing)
 - Gentoo Linux (Coming soon)
