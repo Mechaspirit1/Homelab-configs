@@ -21,6 +21,7 @@ Low-powered makeshift networking appliance
 - Motherboard: ECS BAT-I
 - CPU: Intel Celeron J1800
 - Memory: 1x4 4GB DDR3 ADATA SO-DIMM
+- NIC: Multilaser ML-GA150-SNT19
 - Software Distribution: PfSense Community Edition
 
 ## Main node "omnissiah"
