@@ -62,4 +62,8 @@ Main virtualization machine
 - Coming soon
 
 # Networking
-![svgviewer-output](https://github.com/user-attachments/assets/bd6e98b9-4d9c-4c68-b021-b3f5a79585ea)
+Basic diagram explaining network flow
+
+![svgviewer-output (1)](https://github.com/user-attachments/assets/b2fa9aa8-60ca-4eb1-81db-05bebcc98f7f)
+
+
