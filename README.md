@@ -1,7 +1,22 @@
 # Homelab Infrastructure Documentation
+[![Proxmox](https://img.shields.io/badge/Proxmox-VE_8.x-orange)](https://www.proxmox.com)
+[![PfSense](https://img.shields.io/badge/PfSense-CE-blue)](https://www.pfsense.org)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-MIT-red)](https://opensource.org/license/mit)
+
 This repository is dedicated to the documentation and journaling of my homelab.
 This documentation, much like the lab itself, is a work in progress and subject to
-changes and updates. 
+changes and updates.
+
+# Table of contents
+- [Homelab Infrastructure Documentation](#homelab-infrastructure-documentation)
+- [Table of contents](#table-of-contents)
+- [Rationale](#rationale)
+- [System specifications](#system-specifications)
+  - [Firewall "Motive Force"](#firewall-motive-force)
+  - [Main node "omnissiah"](#main-node-omnissiah)
+  - [Virtual Machines](#virtual-machines)
+  - [Containers](#containers)
+- [Networking](#networking)
 
 # Rationale 
 The main objectives behind this project are:
@@ -46,6 +61,5 @@ Main virtualization machine
 ## Containers
 - Coming soon
 
-
-
-
+# Networking
+![svgviewer-output](https://github.com/user-attachments/assets/bd6e98b9-4d9c-4c68-b021-b3f5a79585ea)
