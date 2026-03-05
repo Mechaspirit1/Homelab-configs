@@ -64,6 +64,5 @@ Main virtualization machine
 # Networking
 Basic diagram explaining network flow
 
-![svgviewer-output (1)](https://github.com/user-attachments/assets/b2fa9aa8-60ca-4eb1-81db-05bebcc98f7f)
-
+![test](https://github.com/user-attachments/assets/09f17808-7e2c-49f0-b091-4039bd7c566a)
 
