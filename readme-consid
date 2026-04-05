@@ -1,0 +1,12 @@
+                                                   !!! IMPORTANT CONSIDERATIONS !!!
+
+- Always read the information displayed by the shell on login
+- Avoid installing software and dependendcies that are known to be targets of supply chain attacks (Ex. NodeJS)
+- Do not write to the .bashrc file without testing changes locally
+- Remember to always update the github upon any changes made to .bashrc, motd or network configurations
+- Remember to actually disconnect from Termux once you are done
+- Stick to using the prefered RDP client (Remmina) unless absolutely necessary
+- SCP won't work with current .bashrc configuration. Comment it out before trying it
+- If you must reload rhe shell, run the command source .bashrc to do so. Avoid logging in and out all the time
+- Avoid creating useless files in the home or user directory
+
