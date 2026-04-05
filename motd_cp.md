@@ -4,9 +4,9 @@
 ||  Virtualization / Networking Platform                                        ||
 ==================================================================================
 ||                                                                              ||
-||  sg108pe WebGUI addr   ->	192.168.1.4                                       ||
-||  Proxmox WebGUI addr   ->	192.168.1.6:8006                                  ||
-||  Windows 10 VM addr    ->	192.168.1.14                                      ||
+||  sg108pe WebGUI addr   ->	192.168.1.4                                     ||
+||  Proxmox WebGUI addr   ->	192.168.1.6:8006                                ||
+||  Windows 10 VM addr    ->	192.168.1.14                                    ||
 ||  My laptop             ->  192.168.1.11                                      ||
 ||                                                                              ||
 ||  Subnet mask           ->    255.255.255.0                                   ||
