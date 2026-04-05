@@ -7,10 +7,11 @@
 ||  sg108pe WebGUI addr   ->	192.168.1.4                                     ||
 ||  Proxmox WebGUI addr   ->	192.168.1.6:8006                                ||
 ||  Windows 10 VM addr    ->	192.168.1.14                                    ||
-||  My laptop             ->  192.168.1.11                                      ||
+||  My laptop             ->    192.168.1.11                                    ||
 ||                                                                              ||
 ||  Subnet mask           ->    255.255.255.0                                   ||
 ||  Gateway               ->    192.168.1.1                                     ||
+||  Prefered DNS servers  ->    94.140.14.14 - 1.1.1.1                          ||
 ||                                                                              ||
 ||  !!! Windows 10 VM is LAN only (RDP works fine)  - See proxy settings !!!    ||
 ||                                                                              ||
@@ -21,7 +22,6 @@
 ||                                                                              ||
 ==================================================================================
 
-MMMMSSSSSSSSSSSSSSSSSMSS;.     .dMMMMSSSSSSMMSSSSSSSSS
 MMSSSSSSSMSSSSSMSSSSMMMSS."-.-":MMMMMSSSSMMMMSSMSSSMMS
 MSSSSSSSMSSSSMMMSSMMMPTMM;"-/\":MMM^"     MMMSSMMMSSMM
 SSSSSSSMMSSMMMMMMMMMP-.MMM :  ;.;P       dMMMMMMMMMP' 
@@ -42,13 +42,3 @@ MMMMMMMMMMMSSSb                  .dMMMMMMMMM'                       must have a 
 MMMMMMMMMMMMMSS;               .dMMMMMMMMMMP          
 MMMMMMMMMMMMMb`;"-.          .dMMMMMMMMMMP'           
 MMMMMMMMMMMMMMb    ""--.___.dMMMMMMMMMP^"          
-
-
-
-
-
-
-
-
-
-
