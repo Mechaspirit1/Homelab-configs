@@ -1,4 +1,4 @@
-```
+``` 
 ==================================================================================
 ||  OMNISSIAH - Proxmox VM Node	                                                ||
 ||  Virtualization / Networking Platform                                        ||
@@ -42,3 +42,5 @@ MMMMMMMMMMMSSSb                  .dMMMMMMMMM'                       must have a 
 MMMMMMMMMMMMMSS;               .dMMMMMMMMMMP          
 MMMMMMMMMMMMMb`;"-.          .dMMMMMMMMMMP'           
 MMMMMMMMMMMMMMb    ""--.___.dMMMMMMMMMP^"          
+
+CTRL + C to initiate input --- refer to the readme (/root/readme) for further information.
