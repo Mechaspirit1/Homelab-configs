@@ -19,4 +19,10 @@
 clear
 uname -a
 cat /etc/motd
-echo "OMNISSIAH ONLINE | VMs: $(qm list | grep running | wc -l) running | Uptime: $(uptime -p)"
+dnt
+
+if [ "$TERM" = "linux" ]; then
+    setterm -foreground white --bold on -background black -store
+fi
+
+
