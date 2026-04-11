@@ -1,4 +1,5 @@
 ``` 
+
 ==================================================================================
 ||  OMNISSIAH - Proxmox VM Node	                                                ||
 ||  Virtualization / Networking Platform                                        ||
@@ -22,25 +23,25 @@
 ||                                                                              ||
 ==================================================================================
 
-MMSSSSSSSMSSSSSMSSSSMMMSS."-.-":MMMMMSSSSMMMMSSMSSSMMS
-MSSSSSSSMSSSSMMMSSMMMPTMM;"-/\":MMM^"     MMMSSMMMSSMM
-SSSSSSSMMSSMMMMMMMMMP-.MMM :  ;.;P       dMMMMMMMMMP' 
-SSMSSSMMMSMMMMMMMMMP   :M;`:  ;.'+"""t+dMMMMMMMMMMP   
-MMMSSMMMMMMMMPTMMMM"""":P `.\// '    ""^^MMMMMMMP'    
-MMMMMMPTMMMMP="TMMMsg,      \/   db`c"  dMMMMMP"      
-MMMMMM  TMMM   d$$$b ^          /T$; ;-/TMMMP         
-MMMMM; .^`M; d$P^T$$b          :  $$ ::  "T(                 ::::    ::::   ::::::::    :::
-MMMMMM   .-+d$$   $$$;         ; d$$ ;;  __                  +:+:+: :+:+:+ :+:    :+: :+:+:
-MMMMMMb   _d$$$   $$$$         :$$$; :MmMMMMp.               +:+ +:+:+ +:+ +:+          +:+
-MMMMMM"  " T$$$._.$$$;          T$P.'MMMSSSSSSb.             +#+  +:+  +#+ +#++:++#++   +#+
-MMM`TMb   -")T$$$$$$P'       `._ ""  :MMSSSMMP'              +#+       +#+        +#+   +#+
-MMM / \    '  "T$$P"           /     :MMMMMMM                #+#       #+# #+#    #+#   #+#
-MMSb`. ;                      "      :MMMMMMM                ###       ###  ########  ####### 
-MMSSb_lSSSb.      \ `.   .___.       MMMMMMMM         
-MMMMSSSSSSSSb.                     .MMMMMMMMM                       "Pool on the roof
-MMMMMMMMMMMSSSb                  .dMMMMMMMMM'                       must have a leak"
-MMMMMMMMMMMMMSS;               .dMMMMMMMMMMP          
-MMMMMMMMMMMMMb`;"-.          .dMMMMMMMMMMP'           
-MMMMMMMMMMMMMMb    ""--.___.dMMMMMMMMMP^"          
+             .,-:;//;:=,
+         . :H@@@MM@M#H/.,+%;,
+      ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  -@#@@@MX .,              -%HX$$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:             ::::    ::::   ::::::::    :::
+ X@/ -$MM/                    .+MM@@@M$             +:+:+: :+:+:+ :+:    :+: :+:+:
+,@M@H: :@:                    . -X#@@@@-            +:+ +:+:+ +:+ +:+          +:+
+,@@@MMX, .                    /H- ;@M@M=            +#+  +:+  +#+ +#++:++#++   +#+
+.H@@@@M@+,                    %MM+..%#$.            +#+       +#+        +#+   +#+
+ /MMMM@MMH/.                  XM@MH; -;             #+#       #+# #+#    #+#   #+#
+  /%+%$XHH@$=              , .H@@@@MX,              ###       ###  ########  #######
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$$%+- .:$MMX -M@@MM%.        "Science isn't about WHY. It's about WHY NOT."
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@- -,
+               =++%%%%+/:-.
 
 CTRL + C to initiate input --- refer to the readme (/root/readme) for further information.
