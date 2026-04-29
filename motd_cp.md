@@ -9,6 +9,7 @@
 ||  Proxmox WebGUI addr   ->	192.168.1.6:8006                                ||
 ||  Windows 10 VM addr    ->	192.168.1.14                                    ||
 ||  My laptop             ->    192.168.1.11                                    ||
+||  My desktop            ->    192.168.1.7                                     ||
 ||                                                                              ||
 ||  Subnet mask           ->    255.255.255.0                                   ||
 ||  Gateway               ->    192.168.1.1                                     ||
@@ -20,6 +21,7 @@
 ||      - Always check hardware after a shutdown                                ||
 ||      - OPNSense firewall to be installed soon - Update this once it happens  ||
 ||      - DHCP is deactivated across all homelab equipment, VMS included.       ||
+||      - Proxmox has been updated to kernel 7.0, watch out for instability     ||
 ||                                                                              ||
 ==================================================================================
 
