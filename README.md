@@ -12,7 +12,6 @@ changes and updates.
 - [Table of contents](#table-of-contents)
 - [Rationale](#rationale)
 - [System specifications](#system-specifications)
-  - [Firewall "Motive Force"](#firewall-motive-force)
   - [Main node "omnissiah"](#main-node-omnissiah)
   - [Virtual Machines](#virtual-machines)
   - [Containers](#containers)
@@ -29,16 +28,6 @@ The main objectives behind this project are:
 
 Performance considerations have been made to conform to the limitations of the hardware itself and the allocated budget.
 
-# System specifications
-## Firewall "Motive Force"
-Low-powered makeshift networking appliance 
-
-- Motherboard: ECS BAT-I
-- CPU: Intel Celeron J1800
-- Memory: 1x4 4GB DDR3 ADATA SO-DIMM
-- NIC: Multilaser ML-GA150-SNT19
-- Software Distribution: PfSense Community Edition
-
 ## Main node "omnissiah"
 Main virtualization machine
 
@@ -46,20 +35,19 @@ Main virtualization machine
 - Motherboard: Dell 773VG LGA1155 Intel Q77
 - CPU: Intel Core I7 3770 (4 cores, 8 threads) @ 3.90GHz
 - Memory: 4x8 32GB DDR3 Kingston KVR16LN11/8 @ 1600 MT/s
-- GPU: RTX 5050 8GB (Coming soon)
 - PSU: MSI MAG A550BN
-- Hypervisor: Proxmox VE (kernel 6.17.2.1-pve)
+- Hypervisor: Proxmox VE (kernel 7.0.2-2-pve)
 - Boot Drive: 250GB Western Digital WDS250G3B0A
-- General storage: 2TB Western Digital WD22PURZ
+- ISO and LXC template/Backup storage: 2TB Western Digital WD22PURZ
+- General storage: 5TB Seagate Barracuda st6000DM003
 
 ## Virtual Machines
 - Windows 10 Pro Edition (general windows desktop usage)
-- Linux Mint 22.3 "Zena" kernel 6.8 (testing)
-- FreeBSD 15.0-RELEASE (testing)
-- Gentoo Linux (Coming soon)
+- Void linux (Testing)
 
 ## Containers
-- Coming soon
+- AlmaLinux (Grafana/Prometheus setup)
+- Debian (Pihole)
 
 # Networking
 Basic diagram explaining network flow
