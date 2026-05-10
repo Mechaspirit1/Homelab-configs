@@ -1,5 +1,6 @@
-                                                   !!! IMPORTANT CONSIDERATIONS !!!
+                                         !!! IMPORTANT CONSIDERATIONS !!!
 
+- Open files in a text editor instead of using cat to read them properly if using physical console - Linux TTY can't scroll :^)
 - Always read the information displayed by the shell on login
 - Avoid installing software and dependendcies that are known to be targets of supply chain attacks (Ex. NodeJS)
 - Do not write to the .bashrc file without testing changes locally
@@ -9,4 +10,4 @@
 - SCP won't work with current .bashrc configuration. Comment it out before trying it
 - If you must reload rhe shell, run the command source .bashrc to do so. Avoid logging in and out all the time
 - Avoid creating useless files in the home or user directory
-
+- use qm list to see vm information
