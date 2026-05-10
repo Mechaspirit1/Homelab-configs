@@ -39,7 +39,7 @@ Main virtualization machine
 - Hypervisor: Proxmox VE (kernel 7.0.2-2-pve)
 - Boot Drive: 250GB Western Digital WDS250G3B0A
 - ISO and LXC template/Backup storage: 2TB Western Digital WD22PURZ
-- General storage: 5TB Seagate Barracuda st6000DM003
+- General storage: 6TB Seagate Barracuda ST6000DM003
 
 ## Virtual Machines
 - Windows 10 Pro Edition (general windows desktop usage)
