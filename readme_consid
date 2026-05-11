@@ -11,3 +11,4 @@
 - If you must reload rhe shell, run the command source .bashrc to do so. Avoid logging in and out all the time
 - Avoid creating useless files in the home or user directory
 - use qm list to see vm information
+- use pct list to see lxc container information
