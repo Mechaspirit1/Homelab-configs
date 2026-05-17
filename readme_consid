@@ -1,6 +1,6 @@
                                          !!! IMPORTANT CONSIDERATIONS !!!
 
-- Open files in a text editor instead of using cat to read them properly if using physical console - Linux TTY can't scroll :^)
+- Use the less command instead of cat on physical terminal for scrolling
 - Always read the information displayed by the shell on login
 - Avoid installing software and dependendcies that are known to be targets of supply chain attacks (Ex. NodeJS)
 - Do not write to the .bashrc file without testing changes locally
