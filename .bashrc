@@ -28,8 +28,8 @@ transfer() {
 	mkdir ~/configs && cp .bashrc readme /etc/motd /usr/local/bin/dnt ~/.tmux.conf ~/configs
 	cd ~/configs && chmod -x dnt
 	mv dnt dnt.sh && mv readme readme_consid
-	tar -cf configs.tar .bashrc .tmux.conf readme_consid motd dnt.sh
-	scp -r ~/configs/configs.tar mspirit1@192.168.1.7:~
+	tar -cf configs.tar .bashrc .tmux.conf *
+	scp -r ~/configs/configs.tar mspirit1@192.168.1.7:~/github/Homelab-configs
 	cd
 	rm -r ~/configs
 }
