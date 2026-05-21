@@ -44,5 +44,5 @@ setfont /usr/share/consolefonts/Uni3-TerminusBold14.psf.gz
 echo "Last login: $(lastlog2 -u "$USER" | awk 'NR==2 {print $4, $5, $6, $7, $8}')"
 uname -a
 cat /etc/motd
-dnt
 echo -e
+dnt

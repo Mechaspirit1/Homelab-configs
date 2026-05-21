@@ -1,4 +1,4 @@
-# Homelab Infrastructure Documentation
+n# Homelab Infrastructure Documentation
 [![Proxmox](https://img.shields.io/badge/Proxmox-VE_8.x-orange)](https://www.proxmox.com)
 [![PfSense](https://img.shields.io/badge/PfSense-CE-blue)](https://www.pfsense.org)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-MIT-red)](https://opensource.org/license/mit)
@@ -28,6 +28,8 @@ The main objectives behind this project are:
 
 Performance considerations have been made to conform to the limitations of the hardware itself and the allocated budget.
 
+# System specifications
+
 ## Main node "omnissiah"
 Main virtualization machine
 
@@ -35,7 +37,6 @@ Main virtualization machine
 - Motherboard: Dell 773VG LGA1155 Intel Q77
 - CPU: Intel Core I7 3770 (4 cores, 8 threads) @ 3.90GHz
 - Memory: 4x8 32GB DDR3 Kingston KVR16LN11/8 @ 1600 MT/s
-- PSU: MSI MAG A550BN
 - Hypervisor: Proxmox VE (kernel 7.0.2-2-pve)
 - Boot Drive: 250GB Western Digital WDS250G3B0A
 - ISO and LXC template/Backup storage: 2TB Western Digital WD22PURZ
@@ -49,7 +50,7 @@ Main virtualization machine
 - AlmaLinux (Grafana/Prometheus setup)
 - Debian (Pihole)
 
-# Networking
+## Networking
 Basic diagram explaining network flow
 
 ![test](https://github.com/user-attachments/assets/09f17808-7e2c-49f0-b091-4039bd7c566a)
