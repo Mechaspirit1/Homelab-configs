@@ -1,4 +1,4 @@
-n# Homelab Infrastructure Documentation
+# Homelab Infrastructure Documentation
 [![Proxmox](https://img.shields.io/badge/Proxmox-VE_8.x-orange)](https://www.proxmox.com)
 [![PfSense](https://img.shields.io/badge/PfSense-CE-blue)](https://www.pfsense.org)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-MIT-red)](https://opensource.org/license/mit)
