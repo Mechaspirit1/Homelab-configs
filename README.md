@@ -47,7 +47,7 @@ Main virtualization machine
 - Void linux (Testing)
 
 ## Containers
-- AlmaLinux (Grafana/Prometheus setup)
+- Debian (Grafana/Prometheus setup)
 - Debian (Pihole)
 
 ## Networking

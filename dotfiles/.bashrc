@@ -21,22 +21,22 @@ alias jerrors='journalctl -g error'
 alias use='uptime && echo -e && who && echo -e &&  df -h'
 
 cdls() {
-	builtin cd "$@" && echo -e && pwd && echo -e && ls -la
+    builtin cd "$@" && echo -e && pwd && echo -e && ls -la
 }
 
 transfer() {
-	mkdir ~/configs && cp ~/.bashrc ~/readme /etc/motd /usr/local/bin/dnt ~/.tmux.conf ~/.nanorc ~/configs
-	cd ~/configs && chmod -x dnt
-	mv dnt dnt.sh && mv readme readme_consid
-    	mkdir dotfiles && mv .bashrc .tmux.conf .nanorc dotfiles
-	tar -cf configs.tar *
-	scp -r ~/configs/configs.tar mspirit1@192.168.1.7:~/github/Homelab-configs
-	cd
-	rm -r ~/configs
+    mkdir ~/configs && cp ~/.bashrc ~/readme /etc/motd /usr/local/bin/dnt ~/.tmux.conf ~/.nanorc ~/.vimrc ~/configs
+    cd ~/configs && chmod -x dnt
+    mv dnt dnt.sh && mv readme readme_consid
+    mkdir dotfiles && mv .bashrc .tmux.conf .nanorc .vimrc dotfiles
+    tar -cf configs.tar *
+    scp -r ~/configs/configs.tar mspirit1@192.168.1.7:~/github/Homelab-configs
+    cd
+    rm -r ~/configs
 }
 
 if [ "$TERM" = "linux" ]; then
-	setterm -foreground yellow --store
+    setterm -foreground green --store
 fi
 
 
