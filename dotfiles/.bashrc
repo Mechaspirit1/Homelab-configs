@@ -45,5 +45,8 @@ setfont /usr/share/consolefonts/Uni3-TerminusBold14.psf.gz
 echo "Last login: $(lastlog2 -u "$USER" | awk 'NR==2 {print $4, $5, $6, $7, $8}')"
 uname -a
 cat /etc/motd
-echo -e
 dnt
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

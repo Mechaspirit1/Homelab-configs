@@ -1,29 +1,17 @@
-" ==========================================
-" Basic Vim configuration
-" ==========================================
-
 set nocompatible
 filetype plugin indent on
 syntax on
-
-" ==========================================
-" Interface
-" ==========================================
 
 set number              " Show line numbers
 set ruler               " Show cursor position
 set showcmd             " Show incomplete commands
 set showmatch           " Highlight matching brackets
-"set cursorline          " Highlight current line
+set cursorline          " Highlight current line
 
 set nowrap              " Don't wrap long lines
 set scrolloff=5         " Keep 5 lines visible around cursor
 
 set wildmenu            " Better command completion
-
-" ==========================================
-" Tabs and indentation
-" ==========================================
 
 set tabstop=4
 set shiftwidth=4
@@ -33,51 +21,27 @@ set expandtab
 set autoindent
 set smartindent
 
-" ==========================================
-" Search
-" ==========================================
-
 set ignorecase
 set smartcase
 set incsearch
 set hlsearch
 
-" Clear search highlights with Esc
 nnoremap <Esc> :noh<CR><Esc>
-
-" ==========================================
-" Mouse
-" ==========================================
 
 set mouse=a
 
-" ==========================================
-" Clipboard
-" ==========================================
-
 set clipboard=unnamedplus
-
-" ==========================================
-" Splits
-" ==========================================
 
 set splitbelow
 set splitright
-
-" ==========================================
-" Colorscheme
-" ==========================================
 
 hi clear
 syntax reset
 
 set background=dark
 
-" Normal text
-hi Normal       ctermfg=15 ctermbg=0
-
 " Cursor line
-hi CursorLine   cterm=NONE ctermbg=8
+hi CursorLine   cterm=NONE ctermbg=0
 
 " Line numbers
 hi LineNr       ctermfg=6
@@ -123,3 +87,8 @@ hi ErrorMsg     ctermfg=15 ctermbg=1
 
 " TODO comments
 hi Todo         ctermfg=0 ctermbg=3 cterm=bold
+
+call plug#begin()
+Plug 'preservim/NERDTree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
