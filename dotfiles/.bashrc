@@ -20,6 +20,9 @@ alias l='ls $LS_OPTIONS -lA'
 alias jerrors='journalctl -g error'
 alias use='uptime && echo -e && who && echo -e &&  df -h'
 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/host_rsa
+
 cdls() {
     builtin cd "$@" && echo -e && pwd && echo -e && ls -la
 }
